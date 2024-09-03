@@ -15,6 +15,7 @@ const Aplication = () => {
   return (
     <div>
       <h1>{user.name ? `Welcome, ${user.name}` : 'Welcome'}</h1>
+      <h1>{user.name ? ` ${user.email}` : ''}</h1>
       <p>This is the new page.</p>
       <button onClick={handleButtonClick}>Go to New Page</button>
     </div>
